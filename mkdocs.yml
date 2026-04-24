@@ -2,19 +2,41 @@ site_name: Fairino Integration Manual
 
 theme:
   name: material
+  logo: https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg
   features:
     - navigation.sections
     - navigation.expand
     - navigation.instant
+    - navigation.top
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.indexes
+    - navigation.footer
+    - navigation.tracking
+    - navigation.prune
+    - navigation.path
+    - navigation.collapse
+    - navigation.sidebar
     - search.highlight
+    - search.share
     - content.code.copy
+    - content.tabs.link
 
 nav:
-  - Home: index.md
+  - PLC Integration:
+      - Mitsubishi FX: plc/mitsubishi-fx.md
+      - Mitsubishi R: plc/mitsubishi-r.md
+      - Mitsubishi Q: plc/mitsubishi-q.md
+      - Omron NX: plc/omron-nx.md
+      - Omron NJ: plc/omron-nj.md
 
-  - Getting Started:
-      - Introduction: getting-started.md
-      - Installation: installation.md
+  - HMI Integration:
+      - Mitsubishi GOT: hmi/mitsubishi-got.md
+      - Innovance: hmi/innovance.md
 
-  - API Reference:
-      - Overview: api.md
+  - Camera Integration:
+      - Webcam: camera/webcam.md
+      - Cognex: camera/cognex.md
+      - Keyence: camera/keyence.md
+
+  - Downloads: downloads.md
