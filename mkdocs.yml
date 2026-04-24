@@ -14,8 +14,3 @@ nav:
   - Getting Started: getting-started.md
   - Installation: installation.md
   - API: api.md
-
-  palette:
-    - scheme: default
-      primary: blue
-      accent: blue
