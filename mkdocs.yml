@@ -2,23 +2,33 @@ site_name: Fairino Integration Manual
 
 theme:
   name: material
+
   logo: https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg
+
+  palette:
+    # Light mode (default)
+    - scheme: default
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+    # Dark mode
+    - scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
   features:
     - navigation.sections
     - navigation.expand
     - navigation.instant
-    - navigation.top
-    - navigation.tabs
-    - navigation.tabs.sticky
-    - navigation.indexes
-    - navigation.footer
-    - navigation.tracking
-    - navigation.prune
-    - navigation.path
-    - navigation.collapse
     - navigation.sidebar
+    - navigation.collapse
     - search.highlight
-    - search.share
     - content.code.copy
     - content.tabs.link
 
