@@ -1,0 +1,7 @@
+site_name: My Manual
+
+theme:
+  name: material
+
+nav:
+  - Home: index.md
