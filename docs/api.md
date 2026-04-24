@@ -1,14 +1,19 @@
+## Example Usage
 
----
+=== "Python"
 
-# ✅ STEP 12 — Add table (very important for manuals)
+    ```python
+    robot.start()
+    ```
 
-Example in `api.md`:
+=== "C++"
 
-```md
-## Commands
+    ```cpp
+    robot.start();
+    ```
 
-| Command       | Description        |
-|---------------|--------------------|
-| robot.start() | Start the robot    |
-| robot.stop()  | Stop the robot     |
+=== "REST API"
+
+    ```bash
+    POST /robot/start
+    ```
