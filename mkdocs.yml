@@ -1,7 +1,7 @@
 site_name: Fairino Integration Manual
 
 theme:
-  name: material
+  name: readthedocs
 
   logo: https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg
 
