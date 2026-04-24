@@ -7,3 +7,11 @@ nav:
 
   - API Reference:
       - Overview: api.md
+
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.instant
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
