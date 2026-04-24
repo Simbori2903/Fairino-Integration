@@ -1,16 +1,9 @@
-site_name: Fairino Integration Manual
-
-theme:
-  name: material
-  features:
-    - navigation.sections
-    - navigation.expand
-    - navigation.instant
-    - search.highlight
-    - content.code.copy
-
 nav:
   - Home: index.md
-  - Getting Started: getting-started.md
-  - Installation: installation.md
-  - API: api.md
+
+  - Getting Started:
+      - Introduction: getting-started.md
+      - Installation: installation.md
+
+  - API Reference:
+      - Overview: api.md
