@@ -37,7 +37,7 @@ Technical information for integrating Fairino robot with ODOT PLC system.
   - Turn On Modbus Slave in that port
   - Use Modbus Pool to check if the modbus status are OK
 
-# 6.2.2 PLC Settings
+### 6.2.2 PLC Settings
   - Make sure PLC are initialized and can work properly (ladder program are exceuted)
   - Change PLC Address to 192.168.57.1 can be done via 'IO Config' Software
   - Open CodeSYS, you may need to change your PC IP address
