@@ -34,11 +34,11 @@ theme:
 
 nav:
   - PLC Integration:
-      - Mitsubishi FX: plc/mitsubishi-fx.md
-      - Mitsubishi R: plc/mitsubishi-r.md
-      - Mitsubishi Q: plc/mitsubishi-q.md
-      - Omron NX: plc/omron-nx.md
-      - Omron NJ: plc/omron-nj.md
+      - Mitsubishi FX: PLC/mitsubishi-fx.md
+      - Mitsubishi R: PLC/mitsubishi-r.md
+      - Mitsubishi Q: PLC/mitsubishi-q.md
+      - Omron NX: PLC/omron-nx.md
+      - Omron NJ: PLC/omron-nj.md
 
   - HMI Integration:
       - Mitsubishi GOT: hmi/mitsubishi-got.md
